@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // это стиль для текста
+    <style name="TextViewStyle" parent="android:Widget.Material.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    // это кнопка
+    <style name="field_btn" parent="android:Widget.Material.Button">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+
+    </style>
+
+</resources>

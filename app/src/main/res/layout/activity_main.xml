@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/yourFields"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/your_fields"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/yourFieldsBtn"
+        style="@style/field_btn"
+        android:text="+"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="140dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
