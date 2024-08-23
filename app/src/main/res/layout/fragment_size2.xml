@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SizeFragment">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="Введите размер поля" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="Длина" />
+
+        <EditText
+            android:id="@+id/field_length"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="введите в метрах"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="Ширина" />
+
+        <EditText
+            android:id="@+id/field_width"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="введите в метрах"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <Button
+        style="@style/field_btn"
+        android:layout_width="152dp"
+        android:textSize="15sp"
+        android:text="продолжить" />
+
+
+</LinearLayout>

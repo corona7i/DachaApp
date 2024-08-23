@@ -20,6 +20,11 @@ android {
         }
     }
 
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -59,7 +64,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    //implementation(libs.androidx.constraintlayout)
+    //implementation("com.google.android.material:material:<>")
+    implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.appcompat)
     //implementation(libs.material)
     //implementation(libs.androidx.activity)

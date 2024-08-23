@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Dacha App</string>
     <string name="your_fields">Ваши поля</string>
+    <string name="btn1">+</string>
+    <string name="hint1">Введите текст</string>
+    <string name="Otprav">Отправить</string>
+
 
 </resources>
