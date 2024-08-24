@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -9,7 +10,16 @@
         android:id="@+id/inputField"
         android:layout_width="match_parent"
         android:layout_height="70sp"
-        android:hint="@string/hint1" />
+        android:text="Нарисуйте грядки:" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/garden_grid"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/purple_500"
+        />
 
 
     <FrameLayout
