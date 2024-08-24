@@ -47,6 +47,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/continue_btn"
         style="@style/field_btn"
         android:layout_width="152dp"
         android:textSize="15sp"

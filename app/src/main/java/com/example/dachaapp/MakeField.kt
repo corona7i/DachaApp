@@ -6,8 +6,8 @@ import androidx.activity.ComponentActivity
 class MakeField : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_make_field) // Убедитесь, что этот файл существует
-
+        val width = intent.getIntExtra("width", 0)
+        val length = intent.getIntExtra("length", 0)
 
     }
 
